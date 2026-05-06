@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eeea2201d68467f489dabe4e26024fbe
+guid: aa7d1f96c0431314a878a2d84cd51729
 PrefabImporter:
   externalObjects: {}
   userData: 
@@ -10,5 +10,5 @@ AssetOrigin:
   productId: 249507
   packageName: Low Poly Basic Items Pack - Household Items
   packageVersion: 1.0
-  assetPath: Assets/HouseholdItems/Prefabs/BookOrange.prefab
+  assetPath: Assets/HouseholdItems/Prefabs/Money.prefab
   uploadId: 582139
