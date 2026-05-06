@@ -1,0 +1,4 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Label text="Init Text" name="score" style="color: rgb(0, 255, 10); width: 77px; height: 28px; left: 5px; align-items: stretch; -unity-text-align: middle-left; font-size: 20px; -unity-text-outline-color: rgb(0, 0, 0); -unity-text-outline-width: 0.5px;"/>
+    <ui:Label text="Init Text" name="winLose" style="color: rgb(137, 0, 255); width: 289px; height: 102px; left: 0; align-items: center; -unity-text-align: middle-center; font-size: 50px; white-space: nowrap; right: 28px; align-self: center; -unity-text-outline-width: 1px; -unity-text-outline-color: rgb(0, 0, 0);"/>
+</ui:UXML>
