@@ -666,7 +666,6 @@ GameObject:
   m_Component:
   - component: {fileID: 461375659}
   - component: {fileID: 461375658}
-  - component: {fileID: 461375657}
   - component: {fileID: 461375660}
   m_Layer: 0
   m_Name: Main Camera
@@ -675,14 +674,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &461375657
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461375656}
-  m_Enabled: 1
 --- !u!20 &461375658
 Camera:
   m_ObjectHideFlags: 0
@@ -1402,7 +1393,7 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 866208535}
   m_Enabled: 1
-  serializedVersion: 13
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
@@ -1454,7 +1445,7 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
-  m_ShapeRadius: 0
+  m_ShadowRadius: 0
   m_ShadowAngle: 0
   m_LightUnit: 1
   m_LuxAtDistance: 1
@@ -2055,7 +2046,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00000078807534
+      value: 11.3
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3253,6 +3244,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 461375659}
+  - {fileID: 1351146037}
   - {fileID: 866208537}
   - {fileID: 1437497406}
   - {fileID: 2083032865}
@@ -3266,5 +3258,4 @@ SceneRoots:
   - {fileID: 1110315064}
   - {fileID: 626682243}
   - {fileID: 724629553}
-  - {fileID: 1351146037}
   - {fileID: 698077604}
